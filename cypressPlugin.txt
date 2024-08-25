@@ -1,0 +1,5 @@
+//cypress plugin,
+
+cypress-mochawesome-reporter
+cypress-wait-until
+cypress-plugin-snapshots

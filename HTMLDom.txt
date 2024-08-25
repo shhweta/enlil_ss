@@ -1,0 +1,11 @@
+methods to access HTML DOM elements:
+
+* document.getElementById(id): This method retrieves a single element with the specified id attribute. It's very efficient for selecting a unique element on the page. For example, document.getElementById('myElement') returns the element with the id of "myElement".
+
+* document.getElementsByClassName(className): This method returns a live HTMLCollection of all elements that have the specified class name. If you use document.getElementsByClassName('myClass'), it will return all elements with the class "myClass" in an HTMLCollection, which you can then iterate over or manipulate.
+
+* document.querySelector(selector): This method allows you to use CSS selectors to retrieve the first element that matches the given selector. For instance, document.querySelector('.myClass') gets the first element with the class "myClass". It’s versatile and can be used with various CSS selectors.
+
+* document.querySelectorAll(selector): Similar to querySelector, this method returns all elements that match the given CSS selector. For example, document.querySelectorAll('div.myClass') returns a static NodeList of all div elements with the class "myClass". This method is useful for selecting multiple elements that fit a specific criteria.
+
+* document.getElementsByTagName(tagName): This method retrieves all elements with the specified tag name, returning a live HTMLCollection. For example, document.getElementsByTagName('p') returns all <p> elements on the page, which you can loop through to perform operations on each element

@@ -1,0 +1,12 @@
+ls - list down all the files and directory at current path
+ls -a - list down all the hidden files at current directory
+pwd - Tells about present working directory 
+rm <filename> - Remove a file name
+rm -rf <filename> - Forcefully remove a file name
+cp file1 file2 - Copies a file
+diff file1 file2 - Compare file1 and file2
+mv file1 file2 - Help us to rename or move a file
+chmod <permission> filename - lets you change the read, write, and execute permissions on your files.
+cd <path> - change directory
+mkdir <name> - make directory
+touch <filename> - create a file with the filename
